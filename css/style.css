@@ -159,16 +159,43 @@ body{
         text-align: center;
     }
 
+}
 
+@media (min-width : 689px) and (max-width: 992px){
+    .banner-head {
+        font-size: 58px;
+    }
 
+    .banner-pera {
+        font-size: 23px;
+        padding-bottom: 300px;
+    }
 
+    .banner-btn {
+        text-decoration: none;
+        font-size: 33px;
+    }
 
+    .phn-mid{
+        display: flex;
+        justify-content: center;
+    }
 
+    .body-left-part h2 {
+        font-size: 33px;
+    }
 
+    .mobile-res{
+        display: none;
+    }
 
+    .sec-head {
+        font-size: 41px;
+    }
 
-
-
-
-
+    .sec-left {
+        font-size: 25px;
+        text-align: center;
+        padding-right: 0;
+    }
 }
